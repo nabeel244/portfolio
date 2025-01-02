@@ -48,30 +48,69 @@ const socialMediaLinks = {
 
 const skillsSection = {
     title: "What I do",
-    subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+    // subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
     skills: [
-        emoji(
-            "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-        ),
-        emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-        emoji(
-            "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-        )
+        emoji("⚡ Build Dynamic and Scalable Web Applications Using React and Next.js"),
+        emoji("⚡ Develop Robust Backends with Node.js, Nest.js, and PHP/Laravel"),
+        emoji("⚡ Deploy and Manage Cloud Infrastructure with AWS"),
+        emoji("⚡ Create and Manage WordPress Solutions for Content-Driven Websites"),
+        emoji("⚡ Implement Cutting-Edge Technologies Using TypeScript for Better Code Quality")
     ],
 
-    /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
+    softwareSkills: [
+        // Prioritized skills
+        {
+            skillName: "ReactJS",
+            fontAwesomeClassname: "fab fa-react"
+        },
+        {
+            skillName: "NodeJS",
+            fontAwesomeClassname: "fab fa-node"
+        },
+        {
+            skillName: "NestJS",
+            fontAwesomeClassname: "fas fa-cubes"
+        },
+        {
+            skillName: "NextJS",
+            fontAwesomeClassname: "fab fa-react"
+        },
+        {
+            skillName: "AWS",
+            fontAwesomeClassname: "fab fa-aws"
+        },
+        {
+            skillName: "PHP",
+            fontAwesomeClassname: "fab fa-php"
+        },
+        {
+            skillName: "Laravel",
+            fontAwesomeClassname: "fab fa-laravel"
+        },
+        {
+            skillName: "WordPress",
+            fontAwesomeClassname: "fab fa-wordpress"
+        },
+        {
+            skillName: "TypeScript",
+            fontAwesomeClassname: "fab fa-js-square"
+        },
+        {
+            skillName: "GitHub",
+            fontAwesomeClassname: "fab fa-github"
+        },
 
-    softwareSkills: [{
-            skillName: "html-5",
+        // Other skills
+        {
+            skillName: "HTML-5",
             fontAwesomeClassname: "fab fa-html5"
         },
         {
-            skillName: "css3",
+            skillName: "CSS3",
             fontAwesomeClassname: "fab fa-css3-alt"
         },
         {
-            skillName: "sass",
+            skillName: "Sass",
             fontAwesomeClassname: "fab fa-sass"
         },
         {
@@ -79,44 +118,35 @@ https://fontawesome.com/icons?d=gallery */
             fontAwesomeClassname: "fab fa-js"
         },
         {
-            skillName: "reactjs",
-            fontAwesomeClassname: "fab fa-react"
-        },
-        {
-            skillName: "nodejs",
-            fontAwesomeClassname: "fab fa-node"
-        },
-        {
-            skillName: "swift",
+            skillName: "Swift",
             fontAwesomeClassname: "fab fa-swift"
         },
         {
-            skillName: "npm",
+            skillName: "NPM",
             fontAwesomeClassname: "fab fa-npm"
         },
         {
-            skillName: "sql-database",
+            skillName: "SQL-Database",
             fontAwesomeClassname: "fas fa-database"
         },
         {
-            skillName: "aws",
-            fontAwesomeClassname: "fab fa-aws"
-        },
-        {
-            skillName: "firebase",
+            skillName: "Firebase",
             fontAwesomeClassname: "fas fa-fire"
         },
         {
-            skillName: "python",
+            skillName: "Python",
             fontAwesomeClassname: "fab fa-python"
         },
         {
-            skillName: "docker",
+            skillName: "Docker",
             fontAwesomeClassname: "fab fa-docker"
         }
     ],
     display: true // Set false to hide this section, defaults to true
 };
+
+
+
 
 // Education Section
 
@@ -172,41 +202,39 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-    display: true, //Set it to true to show workExperiences Section
-    experience: [{
-            role: "CTO at DK-Indeklima",
-            company: "DK Indeklima",
-            companylogo: require("./assets/images/dk_logo.webp"),
-            date: "Nov 2023 , Present",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    display: true, // Set it to true to show workExperiences Section
+    experience: [
+        {
+            role: "CTO",
+            company: "Meta Melon",
+            companylogo: require("./assets/images/metamelon_logo.webp"),
+            date: "Nov 2023 – Present",
+            desc: "As Chief Technology Officer at Meta Melon, I oversee the development and implementation of innovative technologies, ensuring alignment with the company's business goals. Leading a dynamic team of engineers and developers, I focus on driving technological advancements, improving system architectures, and fostering a culture of continuous innovation and excellence."
         },
         {
-            role: "Web Developer",
-            company: "Barontech Private limited",
-            companylogo: require("./assets/images/barontech.webp"),
-            date: "Dec 2022 – Present",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            descBullets: [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-            ]
+            role: "Senior MERN Developer (React, Node, Nest, Next, AWS)",
+            company: "Cyber Mart",
+            companylogo: require("./assets/images/cyber_mart_logo.webp"),
+            date: "2019 – 2023",
+            desc: "Worked on full-stack development using MERN stack technologies, focusing on scalable applications."
         },
         {
-            role: "Front-End Developer",
-            company: "Pixellete Technologies Inc",
-            companylogo: require("./assets/images/Pixelette-Logo-06.png"),
-            date: "June 2022 – Nov 2022",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            role: "Backend Developer (Node, Nest)",
+            company: "Techmate Technologies",
+            companylogo: require("./assets/images/techmate_logo.webp"),
+            date: "2017-2019",
+            desc: "Focused on server-side development and API design using Node.js and Nest.js."
         },
         {
-            role: "Software Engineer Intern",
-            company: "Rapid Fire Solutions",
-            companylogo: require("./assets/images/final-logo.png"),
-            date: "Dec 2019 – March 2020",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            role: "Freelance Front-End Developer (React, React Native)",
+            company: "Self-Employed",
+            companylogo: require("./assets/images/freelance_logo.png"),
+            date: "2015 – 2017",
+            desc: "Developed front-end applications for clients using React and React Native, emphasizing UI/UX design."
         }
     ]
 };
+
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
